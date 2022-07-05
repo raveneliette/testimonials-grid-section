@@ -1,0 +1,50 @@
+.testimonials {
+    background-color: var(--color-gray-light-1);
+    padding: 12rem;
+    height: 100vh;
+
+    display: grid;
+    grid-template-rows: repeat(2, min-content);
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    gap: 2.4rem;
+    
+    &__card {
+        border-radius: .7rem;
+        padding: 2.4rem;
+
+        &--1 {
+            background-color: var(--color-primary);
+
+            grid-row: 1 / 1;
+            grid-column: 1 / span 2;
+        }
+
+        &--2 {
+            background-color: var(--color-primary-dark-2);
+        }
+
+        &--3 {
+            background-color: var(--color-white);
+        }
+
+        &--4 {
+            background-color: var(--color-primary-dark-1);
+
+            grid-row: 2 / 3;
+            grid-column: 2 / span 2;
+        }
+
+        &--5 {
+            background-color: var(--color-white);
+
+            grid-row: 1 / span 2;
+            grid-column: 4 / 5;
+        }
+
+    }
+    // &__name
+    // &__paragraph
+    // &__title
+    // &__comment
+}
