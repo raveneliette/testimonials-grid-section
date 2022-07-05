@@ -1,28 +1,18 @@
-:root {
-  --color-primary: hsl(263, 55%, 52%);
-  --color-primary-dark-1: hsl(219, 29%, 14%);
-  --color-primary-dark-2: hsl(217, 19%, 35%);
-  --color-gray-light-1: hsl(210, 46%, 95%);
-  --color-gray-light-2: hsl(0, 0%, 81%);
-  --color-white: hsl(0, 0%, 100%);
-}
+/* Error: expected "{".
+ *   ,
+ * 7 |     &__comment
+ *   |               ^
+ *   '
+ *   src\sass\components\_testimonials.scss 7:15  @use
+ *   src\sass\main.scss 4:1                       root stylesheet */
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  font-size: 81.3%;
-}
-
-body {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Barlow Semi Condensed", sans-serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 7 \2502      &__comment\d\a   \2502                ^\a   \2575 \a   src\\sass\\components\\_testimonials.scss 7:15  @use\a   src\\sass\\main.scss 4:1                       root stylesheet';
 }
