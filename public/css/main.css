@@ -1,1 +1,24 @@
+:root {
+  --color-primary: hsl(263, 55%, 52%);
+  --color-primary-dark-1: hsl(219, 29%, 14%);
+  --color-primary-dark-2: hsl(217, 19%, 35%);
+  --color-gray-light-1: hsl(210, 46%, 95%);
+  --color-gray-light-2: hsl(0, 0%, 81%);
+  --color-white: hsl(0, 0%, 100%);
+}
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 81.3%;
+}
+
+body {
+  box-sizing: border-box;
+}
