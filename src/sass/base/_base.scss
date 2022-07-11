@@ -1,13 +1,18 @@
 :root {
     --color-primary: hsl(263, 55%, 52%);//Moderate #violet
 
-    --color-primary-dark-1: hsl(219, 29%, 14%);//Very dark blackish #blue
-    --color-primary-dark-2: hsl(217, 19%, 35%);//Very dark grayish #blue
+    --color-primary-dark-1: hsl(219, 29%, 14%); //Very dark blackish #blue
+    --color-primary-dark-2: hsl(217, 19%, 35%); //Very dark grayish #blue
 
-    --color-gray-light-1: hsl(210, 46%, 95%);//Light grayish #blue
-    --color-gray-light-2: hsl(0, 0%, 81%);//Light #gray
+    --color-gray-light-1: hsl(210, 46%, 95%); //Light grayish #blue
+    --color-gray-light-2: hsl(0, 0%, 81%);    //Light #gray
 
-    --color-white: hsl(0, 0%, 100%);//White
+    --color-white: hsl(0, 0%, 100%); //White
+    
+    --color-gray-light-50: hsla(0, 0%, 81%, .5);      // --color-gray-light-1 with 50% opacity
+    --color-gray-light-70: hsla(0, 0%, 81%, .7);      // --color-gray-light-1 with 70% opacity
+    --color-primary-dark-50: hsla(219, 29%, 14%, .5); // --color-primary-dark-1 with 50% opacity
+    --color-primary-dark-70: hsla(219, 29%, 14%, .7); // --color-primary-dark-1 with 70% opacity
 }
 
 *,
