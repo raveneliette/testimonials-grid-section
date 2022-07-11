@@ -34,7 +34,11 @@ body {
 
 .main {
     min-height: 100vh;
-    
+
     display: grid;
     justify-content: center;
+}
+
+span {
+    display: inline-block;
 }
