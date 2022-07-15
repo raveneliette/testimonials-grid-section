@@ -1,3 +1,54 @@
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+.heading-tertiary {
+    font-size: 1rem;
+    font-weight: 500;
+
+    &--light {
+        color: var(--color-gray-light-2);    
+    }
+
+    &--dark {
+        color: var(--color-primary-dark-1);
+    }
+
+}
+
+.testimonials__verified {
+    font-size: .85rem;
+
+    &--light-50 {
+        color: var(--color-gray-light-50);
+    }
+
+    &--dark-50 {
+        color: var(--color-primary-dark-50);
+    }
+}
+
+.testimonials__title {
+    font-size: 1.5rem;
+    
+    &--light-span {
+        color: var(--color-white);
+    }
+
+    &--dark-span {
+        color: var(--color-primary-dark-1);
+    }
+
+}
+
+.testimonials__review {
+    font-size: .96rem;
+
+    &--light-70 {
+        color: var(--color-gray-light-70);
+    }
+
+    &--dark-70 {
+        color: var(--color-primary-dark-70);
+    }
+}
