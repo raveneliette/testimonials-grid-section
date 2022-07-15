@@ -1,17 +1,25 @@
 .testimonials {
-    background-color: var(--color-gray-light-1);
-    padding: 12rem;
-    height: 100vh;
+    max-width: 90rem;
+    margin: 10rem 5rem;
+    overflow: hidden;
 
     display: grid;
     grid-template-rows: repeat(2, min-content);
     grid-template-columns: repeat(4, 1fr);
+
+    //Temporary test
+    // @media only screen and (max-width: 1300px) {
+    //     grid-template-rows: repeat(3, min-content);
+    //     grid-template-columns: repeat(3, 1fr);
+    // }
+
     align-content: center;
-    gap: 2.4rem;
+    column-gap: 2.2rem;
+    row-gap: 1.7rem;
     
     &__card {
         border-radius: .7rem;
-        padding: 2.4rem;
+        padding: 1.8rem 2.4rem;
 
         &--1 {
             background-color: var(--color-primary);
@@ -42,9 +50,39 @@
             grid-column: 4 / 5;
         }
 
+        //Temporary test
+        // @media only screen and (max-width: 1300px) {
+        //     &--1 {
+        //         grid-column: 1 / span 2;
+        //     }
+    
+        //     &--2 {
+        //         grid-column: 3 / -1;
+        //     }
+    
+        //     &--4 {
+        //         grid-row: 2 / 3;
+        //         grid-column: 2 / -1;
+        //     }
+    
+        //     &--5 {
+        //         grid-row: 3 / -1;
+        //         grid-column: 1 / -1;
+        //     }
+        // }
+
     }
-    // &__name
-    // &__paragraph
-    // &__title
-    // &__comment
+
+    &__profile-box {
+        display: grid;
+        grid-template-columns: min-content max-content;
+        column-gap: 1.2rem;
+        align-items: center;
+    }
+
+    &__img {
+        width: 2rem;
+        border-radius: 50%;
+        grid-row: 1 / span 2;
+    }
 }
