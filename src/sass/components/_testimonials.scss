@@ -1,7 +1,8 @@
+// @use '../abstracts' as *;
+
 .testimonials {
-    max-width: 90rem;
-    margin: 10rem 5rem;
-    overflow: hidden;
+    max-width: 81.62rem;
+    margin: 6rem 3rem;
 
     display: grid;
     grid-template-rows: repeat(2, min-content);
@@ -14,15 +15,17 @@
     // }
 
     align-content: center;
-    column-gap: 2.2rem;
-    row-gap: 1.7rem;
+    column-gap: 2.15rem;
+    row-gap: 1.75rem;
     
     &__card {
-        border-radius: .7rem;
+        border-radius: .6rem;
         padding: 1.8rem 2.4rem;
+        box-shadow: 2.8rem 2.8rem 3rem -2.5rem var(--card-shadow);
 
         &--1 {
             background-color: var(--color-primary);
+            padding-bottom: 2.3rem;
 
             grid-row: 1 / 1;
             grid-column: 1 / span 2;
@@ -30,14 +33,17 @@
 
         &--2 {
             background-color: var(--color-primary-dark-2);
+            padding-bottom: 2.3rem;
         }
 
         &--3 {
             background-color: var(--color-white);
+            padding-bottom: 1.9rem;
         }
 
         &--4 {
             background-color: var(--color-primary-dark-1);
+            padding-bottom: 1.9rem;
 
             grid-row: 2 / 3;
             grid-column: 2 / span 2;
@@ -45,6 +51,7 @@
 
         &--5 {
             background-color: var(--color-white);
+            padding-bottom: 1.9rem;
 
             grid-row: 1 / span 2;
             grid-column: 4 / 5;
@@ -77,6 +84,7 @@
         display: grid;
         grid-template-columns: min-content max-content;
         column-gap: 1.2rem;
+        row-gap: .04rem;
         align-items: center;
     }
 
