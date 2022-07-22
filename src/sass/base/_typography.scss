@@ -36,13 +36,15 @@ body {
     }
 
     &--dark-span {
-        color: var(--color-primary-dark-1);
+        color: var(--color-primary-dark-2);
+        font-weight: 600;
     }
 
 }
 
 .testimonials__review {
     font-size: .96rem;
+    line-height: 1.35;
 
     &--light-70 {
         color: var(--color-gray-light-70);
@@ -51,4 +53,7 @@ body {
     &--dark-70 {
         color: var(--color-primary-dark-70);
     }
+
+    //Task
+    //The card 1, 2 and 4 are the colors are different in comments
 }
